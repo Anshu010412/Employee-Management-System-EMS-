@@ -1,7 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react'
 import { getLocalStorage, setLocalStorage } from '../utils/LocalStorage'
 
-
 // eslint-disable-next-line react-refresh/only-export-components
 export const AuthContext = createContext()
 // localStorage.clear()
