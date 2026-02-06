@@ -3,14 +3,14 @@ import './App.css'
 import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
-import { AuthProvider } from "../src/Context/AuthProvider";
+import { AuthContext } from "../src/Context/AuthProvider";
 
 
 const App = () => {
 
   const [user, setUser] = useState(null)
   const [loggedInUserData, setLoggedInUserData] = useState(null)
-  const authData = useContext(AuthProvider)
+  const authData = useContext(AuthContext)
 
 
   useEffect(() => {
