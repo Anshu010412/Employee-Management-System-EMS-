@@ -3,7 +3,7 @@ import './App.css'
 import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
-import { AuthContext } from './context/AuthProvider'
+import { AuthContext } from '../src/Context/AuthProvider'
 
 
 const App = () => {
